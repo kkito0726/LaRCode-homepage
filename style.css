@@ -270,7 +270,7 @@ h4 {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 35px;
+  padding: 50px;
 }
 
 .langCard i {
@@ -287,11 +287,11 @@ h4 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-left: 35px;
+  margin-left: 50px;
 }
 
 .langTitle {
-  color: white;
+  color: lightseagreen;
   font-size: 40px;
   font-weight: bold;
 }
@@ -300,6 +300,7 @@ h4 {
   color: white;
   margin: 20px 0;
   text-align: left;
+  font-size: 16px;
 }
 
 .message {
@@ -338,6 +339,10 @@ footer span {
   font-size: 30px;
   margin-bottom: 20px;
   font-weight: bold;
+}
+
+footer span span {
+  color: lightseagreen;
 }
 
 footer .sns {

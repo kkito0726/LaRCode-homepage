@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 8% 5px 8%;
+  position: sticky;
+  top: 0;
+  background-color: #101010;
+  z-index: 100;
+}
+
+.logo {
+  color: white;
+  font-size: 25px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.logo span {
+  color: lightseagreen;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 10px 25px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+nav ul li a:hover {
+  color: lightseagreen;
+}
+
+.btn {
+  background-color: lightseagreen;
+  color: white;
+  padding: 5px 25px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  transform: scale(1.2);
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+
+.main {
+  width: 100%;
+  background-color: #101010;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.title span {
+  color: lightseagreen;
+}
+
+.card {
+  display: flex;
+  background-color: #191919;
+  width: 100%;
+  padding: 35px;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+
+img {
+  width: 300px;
+}
+
+.videoInfo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.videoInfo span {
+  color: white;
+}
+
+.videoInfo .videoTitle {
+  font-size: 24px;
+}
+
+.channel {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.channelIcon {
+  width: 30px;
+  border-radius: 50%;
+}
+
+.channelTitle {
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: #101010;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer span {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+footer span span {
+  color: lightseagreen;
+}
+
+.end {
+  color: white;
+  margin-top: 50px;
+  font-size: 16px;
+}
